@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    padding: 0px;
     font-family:'Josefin Sans', sans-serif;
 }
 
@@ -7,7 +8,20 @@ ul {
        margin: 0;
     padding: 0;
     list-style: none;
-}
+    display: flex;
+    }
+    ul a{
+        text-decoration: none;
+        color:rgb(236, 215, 20);
+    }
+    ul a:hover{
+        color:black;
+        background-color: rgb(236, 215, 20);
+        border-radius:5px;
+        margin: 10px;
+        padding: 5px;
+        box-shadow: 1px 1px 2px black;
+    }
 header{
 display:flex;
 flex-direction:row;
@@ -29,8 +43,9 @@ header li{
 #page-logo {
     font-family: 'Black Ops One', cursive;
     color: rgb(236, 215, 20);
-    font-size: 20px;
+    font-size: 15px;
     padding:10px;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    
 }
