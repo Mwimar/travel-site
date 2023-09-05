@@ -13,6 +13,7 @@ ul {
     ul a{
         text-decoration: none;
         color:rgb(236, 215, 20);
+                text-shadow: 1px 1px 2px black;
     }
     ul a:hover{
         color:black;
@@ -28,6 +29,9 @@ flex-direction:row;
 justify-content: space-between;
 align-items: center;
 padding: 15px 50px;
+position:absolute;
+width:100%;
+box-sizing: border-box;
 }
 
 header ul{
