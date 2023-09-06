@@ -1,0 +1,42 @@
+body{
+    background:linear-gradient(30deg, rgb(32, 32, 32), rgb(51, 50, 50))
+}
+header{
+    position:static;
+}
+main ul{
+    margin:0 auto;
+    width:800px;
+}
+main li{
+    display:flex;
+    background-color:white;
+    box-shadow: 1px 1px 4px rgb(0, 0, 0,);
+    border-radius:6px;
+    overflow: hidden;
+    }
+main li img{
+    width:300px;
+    height:270px;
+    object-fit:cover;
+    
+}
+.item-content{
+    padding:24px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.actions{
+    text-align:right;
+}
+.actions a{
+    color:teal;
+    text-decoration:none;
+    padding:10px;
+    border-radius:8px;
+       
+}
+.actions a:hover{
+    background-color:aquamarine;
+}
