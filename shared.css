@@ -53,3 +53,27 @@ header li{
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     
 }
+footer{
+    background:linear-gradient(70deg, rgba(24, 23, 23, 0.959), rgb(0, 0, 0));
+    margin:0;
+/* padding:20px; */
+
+}
+footer ul{
+    margin:0 5px;
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    padding: 40px;
+     
+}
+footer li{
+    width:80px;
+    height:80px;
+    margin:0 50px;
+
+}
+footer img{
+        width:100%;
+    height:100%;
+        }
